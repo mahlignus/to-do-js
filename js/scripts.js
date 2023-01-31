@@ -325,9 +325,9 @@ loadTodos();
 
 const randomBackground = () => {
     bgImages = [
-        'url("../../img/desk1.jpg")',
-        'url("../../img/desk2.jpg")',
-        'url("../../img/desk3.jpg")'
+        'url("../to-do-js/img/desk1.jpg")',
+        'url("../to-do-js/img/desk2.jpg")',
+        'url("../to-do-js/img/desk3.jpg")'
     ]
 
     document.body.style.backgroundImage = bgImages[Math.floor(Math.random() * 3)]
